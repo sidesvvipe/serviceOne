@@ -27,10 +27,10 @@ then:
         }
     }
     response {
-        status 503
+        status 200
         body("""
 			{
-				"status": "NOT_OK"
+				"wheels":4,"doors":2,"color":"red","status":"OK"
 			}
 			""")
         headers {
