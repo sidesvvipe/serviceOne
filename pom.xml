@@ -78,6 +78,9 @@
 				<extensions>true</extensions>
 				<configuration>
 					<testFramework>JUNIT5</testFramework>
+					<baseClassForTests>
+						com.microservices.serviceOne.BaseClassForTests
+					</baseClassForTests>
 				</configuration>
 			</plugin>
 			<plugin>
